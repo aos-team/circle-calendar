@@ -1,0 +1,97 @@
+<calendar>
+	<event>
+		<category><![CDATA[project]]></category>
+		<title><![CDATA[Project 1]]></title>
+		<headline><![CDATA[Portal]]></headline>
+		<date>
+			<day>25</day>
+			<month>7</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[project]]></category>
+		<title><![CDATA[Project 2]]></title>
+		<headline><![CDATA[Concept]]></headline>
+		<date>
+			<day>28</day>
+			<month>7</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[project]]></category>
+		<title><![CDATA[Project 3]]></title>
+		<headline><![CDATA[Interactive]]></headline>
+		<date>
+			<day>5</day>
+			<month>7</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[case study]]></category>
+		<title><![CDATA[Case Study 1]]></title>
+		<headline><![CDATA[Case Study]]></headline>
+		<date>
+			<day>10</day>
+			<month>7</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[project]]></category>
+		<title><![CDATA[Project 4]]></title>
+		<headline><![CDATA[Portal]]></headline>
+		<date>
+			<day>25</day>
+			<month>8</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[project]]></category>
+		<title><![CDATA[Project 5]]></title>
+		<headline><![CDATA[Concept]]></headline>
+		<date>
+			<day>28</day>
+			<month>8</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[project]]></category>
+		<title><![CDATA[Project 6]]></title>
+		<headline><![CDATA[Interactive]]></headline>
+		<date>
+			<day>5</day>
+			<month>8</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+
+	<event>
+		<category><![CDATA[case study]]></category>
+		<title><![CDATA[Case Study 2]]></title>
+		<headline><![CDATA[Case Study]]></headline>
+		<date>
+			<day>10</day>
+			<month>8</month>
+			<year>2013</year>
+		</date>
+		<link>http://www.google.ca/</link>
+	</event>
+</calendar>

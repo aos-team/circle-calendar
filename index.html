@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Circle Calendar</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.8/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/RequestAnimationFrame.js"></script>
+<script type="text/javascript" src="js/Stats.js"></script>
+<style>
+	@font-face {
+	font-family: 'tstar';
+	src: url('assets/fonts/tstar.eot');
+	src: local('☺'), url('assets/fonts/tstar.woff') format('woff'), url('assets/fonts/tstar.ttf') format('truetype'), url('assets/fonts/tstar.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+	body{
+		
+		width:100%;
+		height:100%;
+		margin:0;
+		min-height:900px;
+	}
+
+	#bg{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0px;
+		left:0px;
+		opacity:0;
+		overflow:hidden;
+		/* background-color:#b2d3a4; */
+
+		transition:transform 5000ms;
+		-webkit-transition:-webkit-transform 5000ms;
+		-moz-transition:-moz-transform 5000ms;
+		-o-transition:-o-transform 5000ms;
+
+		transition-delay:1000ms;
+		-webkit-transition-delay:1000ms;
+		-moz-transition-delay:1000ms;
+		-o-transition-delay:1000ms;
+	}
+
+	#tooltip{
+		position:fixed;
+		z-index:100;
+		left:40px;
+		bottom:45px;
+	}
+
+	.copy{
+		font-family: 'tstar',Arial,sans-serif;
+		color:#c9e2a1;
+		font-size:76px;
+		
+		height:83px;
+		overflow:hidden;
+		padding-left:11px;
+		padding-right:30px;
+		float:left;
+		text-transform: uppercase;
+		width:auto;
+		white-space: nowrap;
+		margin-top:-8px;
+	}
+
+	.copy-container{
+		min-height:83px;
+		overflow:hidden;
+		clear:both;
+		width:0px;
+		background-color: #e1f3c6;
+	}
+
+	#month-tooltip{
+		position:absolute;
+		z-index:150;
+		left:40px;
+		top:40px;
+		width:0px;
+	}
+
+	.month-tooltip-copy{
+		font-family: 'tstar',Arial,sans-serif;
+		color:#c9e2a1;
+		font-size:20px;
+		
+		height:22px;
+		overflow:hidden;
+		padding-left:1px;
+		padding-right:3px;
+		float:left;
+		text-transform: uppercase;
+		width:auto;
+		white-space: nowrap;
+	}
+
+	.month-tooltip-container{
+		min-height:22px;
+		overflow:hidden;
+		clear:both;
+		//width:0px;
+		background-color: #e1f3c6;
+	}
+</style>
+</head>
+
+<body>
+	<div id='bg'>
+	</div>
+	<div id='month-tooltip'>
+		<div class='month-tooltip-container'>
+			<div class='month-tooltip-copy'>JAN</div>
+		</div>
+	</div>
+	<div id='tooltip'>
+			<div class='copy-container'>
+				<div class='copy' id='top'>TITLE</div>
+			</div>
+			<div class='copy-container' style='margin-top:8px;'>
+				<div class='copy' id='bottom'>HEADLINE</div>
+				
+			</div>
+			<div style='clear:both;' />
+	</div>
+	<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>
