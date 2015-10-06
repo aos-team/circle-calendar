@@ -8,7 +8,7 @@ var vendor = (/webkit/i).test(navigator.appVersion) ? 'webkit' :
 		'opera' in window ? 'o' :
 		navigator.userAgent.indexOf("Trident")>-1 ? 'ms' : '';
 
-//Seasons Variables
+// Seasons Variables
 var seasons = ['winter','spring','summer','fall'];
 var colors = [
 	{	//Winter
